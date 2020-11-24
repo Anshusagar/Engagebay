@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Landing Page</title>
+            <style>
+                
+                .connector{
+                    display: flex;
+                    /* border: 1px solid black; */
+                    margin: 1px 1px;
+                    justify-content: center;
+                }
+                .flex-banner{
+                    /* border: 1px solid red; */
+                    margin: 1px 1px;
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .row{
+                    /* border: 2px solid black; */
+                    margin: 1px 1px;
+                    flex-wrap: wrap;
+                    display: flex;
+                }
+                .banner-info{
+                    width: 450px;
+                    height: 400px;
+                    float: left;
+                    margin:auto auto;
+                    text-align: left;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+
+                .para{
+                    /* border: 1px solid teal; */
+                    margin: 1px 1px;
+                }
+                .banner-image{
+                    width: 400px;
+                    height: 400px;
+                    float: right;
+                    /* border: 5px solid green; */
+                }
+                #bold{
+                    font-weight: bold;
+                }
+                .service{
+                      border: 1px solid red;
+                }
+
+            </style>
+    </head>
+    <body>
+        <div class="connector">
+            <div>
+            <img src="https://cdn5.engagebay.com/images/engagebay-flow-img.png" alt="connector">
+            </div>
+        </div>
+
+        <div class="flex-banner">
+            <div class="row">
+                    <div class="banner-info">
+                        <h3 id="bold">Market your business like <br>
+                        the world's best companies</h3>
+
+                     <p class="para">
+                         With our comprehensive set of Marketing tools, including Email Marketing, Marketing Automation, Email Template Builder,
+                         Landing Page Builder, Lead Generation tools, Social Suite &amp; more, your marketing team can take things to the next level.</p>
+                        
+                            <span id="bold" class="span-text">POPULAR MARKETING FEATURES</span>
+
+                            <div class="service">
+                                <ul class="table">
+                                    <li class="table-items">Email Marketing</li>
+                                    <li class="table-items">Marketing Automation</li>
+                                </ul>
+                                <ul class="table">
+                                    <li class="table-items">Lead Generation tools</li>
+                                    <li class="table-items">Landing Pages</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="personal-link">Explore Marketing Software
+                                
+                            </a>
+
+                    </div>
+
+                    <div class="banner-image">
+                                <img src="https://cdn5.engagebay.com/images/Market-your-business-like-the-worlds-best-companies.png" alt="">
+                    </div>
+            </div>
+        </div>
+<!-- ------------------------------------------------------------Second banner -------------------------------------------------------------------- -->
+        <div class="connector">
+            <div>
+            <img id="img-rotate" src="https://cdn5.engagebay.com/images/engagebay-flow-img.png" alt="connector">
+            </div>
+        </div>
+
+        <div class="flex-banner">
+            <div class="row">
+
+                <div class="banner-image2">
+                    <img src="https://cdn5.engagebay.com/images/Build-Lasting-Customer-Relationships.png" alt="">
+             </div>
+                    <div class="banner-info">
+                        <h3 id="bold">Build Lasting Customer Relationships</h3>
+
+                     <p class="para">
+                        Along with a full stack of software for marketing, sales, and customer service, EngageBay also offers a completely free
+						CRM at its core. While they’re powerful when used individually, they are at their best when used together.
+					</p>
+                        
+                            <span id="bold" class="span-text">POPULAR FEATURES</span>
+
+                            <div class="service">
+                                <ul class="table">
+                                    <li class="table-items">Contact Management</li>
+                                    <li class="table-items">Deal Pipeline</li>
+                                </ul>
+                                <ul class="table">
+                                    <li class="table-items">Tasks</li>
+                                    <li class="table-items">Appointment Scheduling</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="personal-link">Explore Free CRM Features
+                               
+                            </a>
+
+                    </div>
+
+                    
+            </div>
+        </div>
+
+        <script>
+            var rotate=document.getElementById("img-rotate");
+            rotate.style.rotate="180deg"
+        </script>
+        
+    </body>
+</html>
