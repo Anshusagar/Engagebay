@@ -3,7 +3,9 @@
     <head>
             <title>Landing Page</title>
             <style>
-                
+                body{
+                        position: relative;
+                }
                 .connector{
                     display: flex;
                 
@@ -48,10 +50,66 @@
                 .service{
                       border: 1px solid red;
                 }
+                .nav-bar{
+                    width: 100%;
+                    height: 60px;
+                    border: 1px solid red;
+                    position: sticky;
 
+
+                }
+                .nav-bar>a{
+                    float: right;
+                    display: block;
+                    color: red;
+                    text-align: center;
+                    padding: 14px;
+
+                }
+                .sticky{
+                    position: fixed;
+                    top: 0;
+                    width: 100%;
+                }
+                #nav-homepage-icon{
+                    width: 40%;
+                }
+                #nav-icon{
+                    border: 1px solid yellow;
+                    width: 40%;
+                    height: 100%;
+                    justify-content: center;
+                    float: left;
+                }
+                button{
+                    float: right;
+                }
             </style>
     </head>
     <body>
+                   <!-- Navigation Bar -->
+                <div class="nav-bar">
+                             <div id="nav-icon">
+                                <a  href="https://www.engagebay.com/"><img id="nav-homepage-icon" src="//cdn5.engagebay.com/logo.svg"  alt="EngageBay logo"></a>
+                                </div>
+
+                            <button>DEMO</button>
+                            <button>FREE SIGNUP</button>
+                                    
+                            <a href="#"> Login</a>
+                            <a href="#"> Resources</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Pricing</a>
+                            <a href="#">Products</a>
+                            
+                </div>
+
+
+
+
+
+
+
         <div class="connector">
             <div>
             <img src="https://cdn5.engagebay.com/images/engagebay-flow-img.png" alt="connector">
@@ -135,8 +193,18 @@
         </div>
 
         <script>
-            var rotate=document.getElementById("img-rotate");
-            rotate.style.rotate="180deg"
+           window.onscroll=function(){
+               myfunc();
+           }
+           var nabar=document.getElementsByClassName("nav-bar");
+           var sticky=navbar.offsetTop;
+           function myfunc(){
+            if (window.pageYOffset >= sticky) {
+                 navbar.classList.add("sticky")
+            } else {
+                 navbar.classList.remove("sticky");
+                }
+           }
         </script>
         
     </body>
