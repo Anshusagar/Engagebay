@@ -48,10 +48,178 @@
                 .service{
                       border: 1px solid red;
                 }
+                .index-container{
+                         width: 1000px;
+                         margin: auto;
+                         background-image: url("https://cdn5.engagebay.com/images/bg-boxed-light-01.jpg");
+                         background-size: contain;
+ 
+                }
+                .index-title-wrap{
+                    font-family: 'Poppins',sans-serif!important;
+                    color: #2f2c2c;
+                    font-size: 35px;
+                    text-align: center;
+                }
+                .index-discription{
+                    font-family: 'Poppins',sans-serif!important;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .form-container{
+                   margin: auto;
+                 }
+                .em{
+                    width: 500PX;
+                    height: 75px;
+                    border-radius: 10px;
+                    font-size: 30px;
+                    text-align: center;
+                    margin-bottom: 25px;
+                    border: 2px solid rgb(168, 217, 233);
+                 }
+                 .sign-up{
+                    width: 300px;
+                    height: 75px;
+                    background-color: #f16334;
+                    border-radius: 10px;
+                    font: inherit;
+                    color: white;
+                    font-weight: bolder;
+                    font-size: 30px;
+                 }
+                 .tryit-out{
+                      
+                 }
+                .marker{
+                    color: purple;
+                    font-weight: bolder;
+                    display: flex;
+                    flex-wrap: wrap;
+                     justify-content: centre;
+                   
+                }
+                .award-container{
+                    width: 1000px;
+                    margin: auto;
+                    text-align: center;
+                    background-color: rgb(243, 235, 199);
+                }
+                .award-head{
+                    color: #4a4a4a;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 34px;
+                    font-family: 'Poppins',sans-serif;
+                }
+                .rating{
+                    color:#979797 ;
+                    font-size: 22px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    margin-bottom: 20px;
+                }
+                .img-rating > img {
+                    margin-right: 30px;
+                }
+                .signup{
+                    background-color: #fae576;
+                    width: 1000px;
+                    font-size: 20px;
+                    text-align: center;
+                    margin: auto;
+                    border-radius: 10px;
+                    border: 1px solid black;
+                    height: 300px;
+                }           
+                .footer{
+                    /* width: 1100px; */
+                    margin: 30px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcb2jII9_8dN_hcX9TUcBd816YC7WvefbTmw&usqp=CAU);
+                    background-size: contain;
+                    justify-content: center;
+                }     
+                .footer-links{
+                    width: 150px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin: 30px;
+                   
+                }
+                .links h4{
+                    font-weight: 600;
+                    font-family: 'Poppins',sans-serif;
+                    color: #6b6275;
 
+                }
+                .link-container{
+                    /* width: 1300px; */
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: right;
+                }
+                .links a {
+                    font-family: 'Poppins',sans-serif;
+                    color: #6b6275;
+                    text-decoration: none;
+                    font-size: 12px;
+                }
+                .social-media-share{
+                    margin: 20px;
+                    margin-top: 20px;
+                }
+                .social-media-share img{
+                    margin: 10px;
+                    width: 20px;
+                    height: 20px;
+                }
+                a:hover{
+                    color:black;
+                }
             </style>
     </head>
     <body>
+                      <!-- index container / heading/sign up form/ -->
+    <div class="index-container">
+          <div class="index-title-wrap">
+              <h1>Engage better.Sell faster.<br>Support smarter</h1>
+          </div>   
+       
+          <div class="index-discription">
+          <p>Align <span>marketing,sales and support </span>teams around single view of your customers</p>
+          </div>
+
+          <div class="form-container">
+            <form >
+                <input class="em" required placeholder="your email address" type="email"/>
+                <button class="sign-up" type="submit">FREE SIGNUP</button>
+                <img class="try-it-out" src="https://cdn5.engagebay.com/img/try-it-out.svg" width="150px" height="150px" alt="try">
+                <div class="marker">
+                    <p>
+                     <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/featured-check.svg" alt="check">
+                     Free for 15 users 
+                     <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/featured-check.svg" alt="check">
+                     No credit card required
+                    </p>
+               </div>
+            </form> 
+          </div>  
+    </div>
+
+                                    <!-- award page/images -->
+        <div class="award-container">
+           <h2 class="award-head"> Award winningcrm software for marketing,sales,&customer <br>support</h2>
+           <div class="rating"> 4.6+ rating from our happy customers</div>
+           <div class="img-rating">
+               <img src="https://www.engagebay.com/images/getapp-47.png" alt="getapp">
+               <img src="https://www.engagebay.com/images/g2crowd-46.png" alt="high performer">
+               <img src="https://www.engagebay.com/images/capterra-46.png" alt="capterra">
+           </div>
+        </div>                            
+                                  <!-- award page/end -->
         <div class="connector">
             <div>
             <img src="https://cdn5.engagebay.com/images/engagebay-flow-img.png" alt="connector">
@@ -132,8 +300,141 @@
 
                     
             </div>
+                         <!-- bottom signup form -->
         </div>
-
+        
+            <div class="signup">
+                <h2>Experience the World's #1 All-in-One Growth Software</h2>
+               <form >
+                   <input class="em" required placeholder="your email address" type="email"/>
+                   <button class="sign-up" type="submit">free signup</button>
+                   <div class="marker">
+                    <p>
+                     <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/featured-check.svg" alt="check">
+                     Free for 15 users 
+                     <img src="https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/featured-check.svg" alt="check">
+                     No credit card required
+                    </p>
+               </div>
+               </form> 
+            
+        </div>
+                         <!-- end of bottom sign up form -->
+                         <!-- footer start -->
+          <div class="footer">
+            <div class="footer-image">
+                <img src="https://cdn5.engagebay.com/images/256x256.png" width="70px" height="70px" alt="footerimg">
+            </div>
+            <div class="link-container">
+            <div class="footer-links">
+                <div class="links">
+                    <div>
+                         <h4>Attract web visitors</h4>
+                         <a href="https://www.engagebay.com/marketing/email-marketing"> Email marketing</a><br>
+                         <a href="https://www.engagebay.com/marketing/email-templates">  Email Templates</a><br>
+                         <a href="https://www.engagebay.com/marketing/email-broadcast"> Email Broadcasts</a><br>
+                         <a href="https://www.engagebay.com/marketing/double-opt-in-email"> double-opt-in-email</a><br>
+                         <a href="https://www.engagebay.com/marketing/autoresponder-emails">autoresponder-emails</a><br>
+                         <a href="https://www.engagebay.com/marketing/email-ab-testing">email-ab-testing</a><br>
+                         <a href="https://www.engagebay.com/marketing/rss-feed-to-email">rss-feed-to-email</a><br>
+                         <a href="https://www.engagebay.com/marketing/drip-campaign">drip-campaign</a><br>
+                         <a href="https://www.engagebay.com/marketing/email-marketing-crm">email-marketing</a><br>
+                         <a href="https://www.engagebay.com/marketing/marketing-campaigns">marketing-campaigns</a><br>
+                    </div> 
+                    <div>
+                        <h4>Sales Prospects</h4>
+                        <a href="https://www.engagebay.com/crm/sales-crm"> sales</a><br>
+                        <a href="https://www.engagebay.com/crm/sales-automation">sales-automation</a><br>
+                        <a href="https://www.engagebay.com/crm/sales-management-software">sales Management</a><br>
+                        <a href="https://www.engagebay.com/crm/sales-tracking-software">sales tracking</a><br>
+                        <a href="https://www.engagebay.com/crm/crm-deals"> crm deals</a><br>
+                        <a href="https://www.engagebay.com/crm/predictive-lead-scoring">predictive-lead-scoring</a><br>
+                        <a href="https://www.engagebay.com/crm/crm-metrics"> crm-metrics</a><br>
+                        <a href="https://www.engagebay.com/crm/sales-proposal"> sales-proposal</a><br>
+                        <a href="https://www.engagebay.com/crm/sales-pipeline">sales-pipeline</a><br>
+                        <a href="https://www.engagebay.com/crm/auto-dialer-software">auto-dialer-software</a><br>
+                        <a href="https://www.engagebay.com/crm/crm-analytics">crm crm-analytics</a><br>
+                   </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                    <div class="links">
+                        <div>
+                            <h4>engage Prospects</h4>
+                            <a href="https://www.engagebay.com/marketing/email-sequences"> Email email-sequences</a><br>
+                            <a href="https://www.engagebay.com/marketing/web-forms">web-forms</a><br>
+                            <a href="https://www.engagebay.com/marketing/landing-pages">landing-pages</a><br>
+                            <a href="https://www.engagebay.com/marketing/marketing-automation">Marketing-automation</a><br>
+                            <a href="https://www.engagebay.com/marketing/push-notifications">push-notifications</a><br>
+                            <a href="https://www.engagebay.com/marketing/video-marketing-templates">video-marketing-templates</a><br>
+                            <a href="https://www.engagebay.com/influencers">influencers</a><br>
+                            <a href="https://www.engagebay.com/affiliate-program">affiliate-program</a><br>
+                        </div>
+                        <div>
+                            <h4>Alternatives</h4>
+                            <a href="https://www.engagebay.com/hubspot-alternative">hubspot-alternative</a><br>
+                            <a href="https://www.engagebay.com/activecampaign-alternative">activecampaign-alternative</a><br>
+                            <a href="https://www.engagebay.com/infusionsoft-alternative">infusionsoft-alternative</a><br>
+                            <a href="https://www.engagebay.com/alternative-to-drip">alternative-to-drip</a><br>
+                            <a href="https://www.engagebay.com/insightly-alternative">insightly-alternative</a><br>
+                            <a href="https://www.engagebay.com/alternative-to-aweber">alternative-to-aweber</a><br>
+                            <a href="https://www.engagebay.com/agilecrm-alternative">agilecrm-alternative</a><br>
+                            <a href="https://www.engagebay.com/sharpspring-alternative">sharpspring-alternative</a><br>
+                            <a href="https://www.engagebay.com/comparisons">comparisons</a><br>
+                        </div>
+                    </div>    
+             </div>
+            <div class="footer-links">
+                        <div class="links">
+                            <div>
+                                <h4>Solutions</h4>
+                                <a href=""></a>
+                            <a href="https://www.engagebay.com/plugins/wordpress">wordpress</a><br>
+                            <a href="https://www.engagebay.com/products/email-tracker">email-tracker</a><br>
+                            <a href="https://www.engagebay.com/solutions/real-estate-crm-marketing">real-estate-crm-marketing</a><br>
+                            <a href="https://www.engagebay.com/solutions/crm-for-nonprofits">crm-for-nonprofits</a><br>
+                            <a href="https://www.engagebay.com/crm/call-center-crm">call-center-crm</a><br>
+                            <a href="https://www.engagebay.com/crm/cloud-crm">cloud-crm</a><br>
+                            <a href="https://www.engagebay.com/crm/best-crm-small-business">best-crm-small-business</a><br>
+                            <a href="https://www.engagebay.com/crm/crm-marketing-automation">crm-marketing-automation</a><br>
+                            <a href="https://www.engagebay.com/crm/b2b-crm">b2b-crm</a><br>
+                            <a href="https://www.engagebay.com/crm/online-crm">online-crm</a><br>
+                            <a href="https://www.engagebay.com/crm/saas-crm">saas-crm</a><br>
+                            <a href="https://www.engagebay.com/crm/social-crm">social-crm</a><br>
+                            <a href="https://www.engagebay.com/crm/mobile-crm">mobile-crm</a><br>
+                            <a href="https://www.engagebay.com/crm/personal-crm">personal-crm</a><br>
+                            <a href="https://www.engagebay.com/crm/unified-crm">unified-crm</a><br>
+                            </div>
+                        </div>
+            </div>
+            <div class="footer-links">
+                <div class="links">
+                    <div>
+                        <h4>Integrations</h4>
+                        <a href=""></a>
+                            <a href="https://www.engagebay.com/integrations/zapier-integration">zapier-integration</a><br>
+                            <a href="https://www.engagebay.com/integrations/xero-integration">xero-integration</a><br>
+                            <a href="https://www.engagebay.com/integrations/mailgun-integration">mailgun-integration</a><br>
+                            <a href="https://www.engagebay.com/integrations/mandrill-integration">mandrill-integration</a><br>
+                            <a href="https://www.engagebay.com/integrations/postmark-integration">postmark-integration</a><br>
+                    </div>
+                    <div>
+                        <h4> Get In touch</h4>
+                        <a href="https://www.engagebay.com/about">About</a>
+                        <a href="https://www.engagebay.com/support">Support</a>
+                        <a href="">+1(877).509.3570</a><br>
+                        <a href="">support@engagebay.com</a><br>
+                    </div>
+                    <div class="social-media-share">
+                     <a href="https://www.twitter.com/engagebay"><img src="https://cdn5.engagebay.com/images/twitter.svg" alt="twitter"></a>
+                     <a href="https://www.facebook.com/engagebay"><img src="https://cdn5.engagebay.com/images/circle-facebook.svg" alt="facebook"></a>
+                     <a href="https://www.linkedin.com/company/engagebay-inc/"><img src="https://cdn5.engagebay.com/images/Linkedin.svg"alt="linkdein"></a>
+                     <a href="https://www.youtube.com/channel/UCJhHSPeKnXs0O6T4Vl7tDug"><img src="https://cdn5.engagebay.com/images/youtube.svg" alt="youtube"></a>
+                     <a href="https://www.instagram.com/engagebay/"><img src="https://cdn5.engagebay.com/img/insta-share.png" alt="insta"></a>
+                    </div>
+                </div> 
+            </div>
+    </div>
         <script>
             var rotate=document.getElementById("img-rotate");
             rotate.style.rotate="180deg"
