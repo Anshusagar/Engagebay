@@ -1,7 +1,4 @@
-#navigation{
-    height: 150px;
   
-}
 #main-container{
     width: 100%;
     background-color: #216ccc;
@@ -11,65 +8,66 @@
     flex: auto;
 }
 #marker{
-    display: none;
+    /* display: none; */
 }
 .tryit-out{
-    display: none;
+    /* display: none; */
 }
 
 .title{
     font-family: 'Poppins',sans-serif!important;
     color: white;
-    font-size: 50px;
+    font-size: 20px;
 
 }
 .overview-header{
-    font-size: 80px;
+    font-size: 35px;
     color: white;
 }
 .em{
-    width: 90%;
-    height: 100px;
+    width: 30%;
+    height: 75px;
     border-radius: 10px;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 25px;
 }
 .sign-up{
-    width: 90%;
-    height: 100px;
+    width: 30%;
+    height: 75px;
     background-color: #f16334;
     border-radius: 10px;
-    font: inherit;
+   
     color: white;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 30px;
 }
 #marker{
 height: 30px;
 margin-right: 280px;
 }
 .mid-container{
+    width: 100%;
     margin: auto;
-    border: 1px dashed  red;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 100px;
 }
 .small-container{
-    width: 95%;
-    height: 1500px;
+    width: 20%;
+    height: 500px;
     background-color: white;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
     margin-top: 150px;
 
 }
 .moving{
   
     width: 100%;
-    border:solid 1px black;
+    
     background-image: url("https://cdn5.engagebay.com/images/bg-boxed-light-01.jpg");
     background-size: contain;
     display: flex;
@@ -77,9 +75,9 @@ margin-right: 280px;
     flex-wrap: wrap;
 }
 .transition{
-    width: 95%;
-  font-size: 50px;
-  margin-top: 100px;
+    width: 40%;
+  font-size: 15px;
+  margin-top: 50px;
    text-align: center;
    font-family: 'Poppins',sans-serif!important;
 }
@@ -91,38 +89,86 @@ margin-right: 280px;
 }
 .signup{
     background-color: #fae576;
-    width: 90%;
-   font-size: 50px;
+    width: 60%;
+   font-size: 20px;
    text-align: center;
    margin: auto;
    border-radius: 10px;
-   border: 1px solid black;
+   border: 1px solid grey;
 }
 .sm123{
-    font-size: 50px;
+    font-size: 15px;
 }
 .smlists{
-    font-size: 50px;
+    font-size: 15px;
 }
 .smlists > img{
     width: 25px;
     height: 25px;
+}
+.smlists a{
+    text-align: left;
 }
 .small-container{
     position: relative;
 }
 .img111{
     position: absolute;
-    top: -100px;
+    top: -60px;
     left: 42.5%;
     background-color: white;
     border-radius: 70px;
 }
+.footer{
+    /* width: 1100px; */
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcb2jII9_8dN_hcX9TUcBd816YC7WvefbTmw&usqp=CAU);
+    background-size: contain;
+    justify-content: center;
+}     
+.footer-links{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+   
+}
+.links h4{
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    color: #6b6275;
+
+}
+.link-container{
+    /* width: 1300px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.links a {
+    font-family: 'Poppins',sans-serif;
+    color: #6b6275;
+    text-decoration: none;
+    font-size: 12px;
+}
+.social-media-share{
+    margin: 20px;
+    margin-top: 20px;
+}
+.social-media-share img{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+a:hover{
+    color:black;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .small-container{
-        max-width: 95%;
-    }
+   
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -131,9 +177,7 @@ margin-right: 280px;
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and ( min-width: 768px) {
    
-    .small-container{
-        width: 25%;
-    }
+    
 }
 
 
