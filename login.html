@@ -12,9 +12,11 @@
         .loginform{
             width: 30%;
           margin-top: 50px;
+          height: 600px;
         }
         .header >img{
               width: 70%;
+             margin-left: 30PX;
         }
          .fancy-h1{
             font-family: 'Varela', sans-serif;
@@ -24,13 +26,20 @@
         .username{
             width: 70%;
             height: 30px;
+            font-family: 'Varela', sans-serif;
                     
         }
         .pass{
             width: 70%;
             height: 30px;
+            font-family: 'Varela', sans-serif;
         }
-       
+        .name{
+            font-family: 'Varela', sans-serif;
+        }
+         .align{
+             margin: 30px;
+         }
         
         .login-img{
             width: 70%;
@@ -38,6 +47,48 @@
         }
         .form11{
             margin: 30px;
+        }
+        .userinfo{
+            margin-top: 100px;
+        }
+        .log-but{
+            width: 70%;
+            height: 40px;
+            background-color: #ed5f3d;
+            margin: 10px;
+            font-family: 'Varela', sans-serif;
+        }
+        .gsuit-but{
+            width: 70%;
+            height: 40px;
+            background-color: #0879fa;
+            margin: 10px;
+            font-family: 'Varela', sans-serif;
+
+        }
+        .unable-to-sign a{
+            text-decoration: none;
+            font-family: 'Poppins',sans-serif;
+            color: #6b6275;
+            font-size: 12px;
+            text-align: center;
+        }
+        .transition{
+            width: 60%;
+           font-size: 20px;
+           margin-top: 100px;
+            text-align: center;
+            font-family: 'Poppins',sans-serif!important;
+            margin: auto;
+            color: white;
+        }
+        .santiago{
+           border-radius: 125px;
+           width: 150px;
+           height: 150px;
+        }
+        .author-name{           
+            color: #4cc2c0;
         }
         </style>
     </head>
@@ -50,19 +101,32 @@
                 <h1 class="fancy-h1"> Login</h1>
                  <div class="userinfo"> 
                      <form class="form-11"> 
+                         <div class="align">
                          <label for="name"> username</label>
                         <div><input class="username" required placeholder="work email" type="email"/></div>
+                         </div> 
+                         <div class="align">                   
                         <label for="password"> Password</label>
                         <div><input class="pass" required placeholder="password" type="password"/></div>
-                     </form>
+                         </div>                  
+                    </form>
                  </div> 
-                 <div class="log-but"></div>
-                 <div class="gsuit-but"></div>
+                 <div> <button class="log-but" type="submit">LOGIN</button></div>
+                 <div ><img><button class="gsuit-but" type="submit">SIGN IN WITH G SUIT</button></div>
+                 <div class="unable-to-sign">
                 <a href="">forgot password?</a><br>
                 <a href="">Don't have account? sign up</a>
+                 </div>
             </div>
             <div class="login-img">
-                <div class="quote"></div>
+                <div class="transition">
+                <p>"A full-featured marketing platform. With this, you have all you need to get started and succeed. Having all in
+                  one platform make any marketer job much easier."
+                </p>
+                <img class="santiago" src="https://cdn5.engagebay.com/img/testimonials/santiago.jpeg" alt="santiago" width="250px" height="250px">
+                <h3 class="author-name"> santiago b</h3>
+                <p>southern europe director, triptease</p>
+            </div>
             </div>
        </div>
     </body>
